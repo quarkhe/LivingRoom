@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_padding">16dp</dimen>
+    <dimen name="view_top_margin">8dp</dimen>
+
+    <dimen name="question_font">18sp</dimen>
+    <dimen name="button_font">16sp</dimen>
+    <dimen name="frame_height">270dp</dimen>
+    <dimen name="picture_button_height">48dp</dimen>
+
+    <dimen name="main_title_size">60dp</dimen>
+    <dimen name="menu_button_width">320dp</dimen>
+    <dimen name="menu_text_size">20sp</dimen>
+</resources>

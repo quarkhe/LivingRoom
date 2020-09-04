@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">阳光云客厅-Demo</string>
+    <string name="main_title">阳光云客厅Demo</string>
+    <string name="bt_text_call">场景1：一句话连通极简接入</string>
+    <string name="bt_text_query">场景2：高频应用AI语音自助办理</string>
+    <string name="bt_text_called">场景3：音/视频远程业务办理</string>
+    <string name="bt_text_howto">场景4：智慧指导屏</string>
+    <string name="bt_text_health">场景5：智慧健康服务</string>
+    <string name="bt_text_push1_travel">场景6：智能信息推送-旅游宣传</string>
+    <string name="bt_text_push2_visit">场景7：智能信息推送-养老社区</string>
+    <string name="bt_text_sales">场景8：视频直播销售</string>
+    <string name="wealth">您的帐户余额：99999元\n最近到期理财产品：\n光大阳光金将于9天后到期</string>
+
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+</resources>

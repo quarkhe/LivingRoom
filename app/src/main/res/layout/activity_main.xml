@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/livingroom"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textSize="@dimen/main_title_size"
+        android:textColor="@color/menuTxtColor"
+        app:layout_constraintBottom_toTopOf="@+id/button_call"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/bt_text_call"
+        android:textSize="@dimen/menu_text_size"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toTopOf="@+id/button_query"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_query"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_text_query"
+        android:textSize="@dimen/menu_text_size"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toTopOf="@+id/button_called"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_call" />
+
+    <Button
+        android:id="@+id/button_called"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_text_called"
+        android:textSize="@dimen/menu_text_size"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toTopOf="@+id/button_howto"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_query" />
+
+    <Button
+        android:id="@+id/button_howto"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_text_howto"
+        android:textSize="@dimen/menu_text_size"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_called" />
+
+    <Button
+        android:id="@+id/button_health"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="left|center_vertical"
+        android:text="@string/bt_text_health"
+        android:textSize="@dimen/menu_text_size"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toTopOf="@+id/button_push1_travel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_push1_travel"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_text_push1_travel"
+        android:textSize="@dimen/menu_text_size"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toTopOf="@+id/button_push2_visit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button_health" />
+
+    <Button
+        android:id="@+id/button_push2_visit"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_text_push2_visit"
+        android:textSize="@dimen/menu_text_size"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toTopOf="@+id/button_sales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button_push1_travel" />
+
+    <Button
+        android:id="@+id/button_sales"
+        android:layout_width="@dimen/menu_button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_text_sales"
+        android:textSize="@dimen/menu_text_size"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/menuTxtColor"
+        android:background="@drawable/menu_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/button_push2_visit" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="480dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
